@@ -1,0 +1,27 @@
+.v1{
+    width: auto;
+    height: 500px;
+    background-image: url(R.jpg); 
+    background-size:cover;
+    border: 2px solid #444;
+    position: relative;
+    border-radius: 10px;
+    transition: 0.5s ease-in-out;
+}
+.v2{
+    display: block;
+    margin: 35px 130px;
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    z-index: -1;
+    transition: 5s ease-in ;
+    border-radius: 10px;
+}
+.v1:hover .v2{
+    z-index: 2;
+}
+.v1:hover{
+    background-image: url(GOOL.jpg);
+    background-size: contain;
+}
